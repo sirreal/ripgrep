@@ -3,6 +3,7 @@ env:
   global:
     - PROJECT_NAME: ripgrep
     - RUST_BACKTRACE: full
+cache: cargo
 addons:
   apt:
     packages:
